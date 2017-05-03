@@ -1,0 +1,2 @@
+# mathjax-server
+
