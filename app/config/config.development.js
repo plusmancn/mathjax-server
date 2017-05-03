@@ -9,6 +9,6 @@
  */
 
 module.exports = {
-    'host': '127.0.0.1',
-    'port': 7077
+    'host': 'mathjax.plusman.cn',
+    'port': 9000
 };

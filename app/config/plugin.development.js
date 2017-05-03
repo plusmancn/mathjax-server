@@ -13,6 +13,6 @@ module.exports = {
     doc: {
         swaggerDocHost: 'http://swagger.plusman.cn/?url=',
         pathHash: '6def414e82cdd4bbeeb8e56b7543fe35',
-        host: '127.0.0.1:7077'
+        host: 'mathjax.plusman.cn'
     }
 };
