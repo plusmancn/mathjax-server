@@ -1,0 +1,34 @@
+{
+  "name": "mathjax-server",
+  "version": "1.0.0",
+  "description": "mathjax server render api which can output svg",
+  "main": "index.js",
+  "scripts": {
+    "server": "DEBUG=cloverx:* node app/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/plusmancn/mathjax-server.git"
+  },
+  "keywords": [
+    "mathjax",
+    "mathjax-server"
+  ],
+  "author": "plusmancn@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/plusmancn/mathjax-server/issues"
+  },
+  "homepage": "https://github.com/plusmancn/mathjax-server#readme",
+  "devDependencies": {
+    "eslint": "^3.19.0",
+    "pm2": "^2.4.6"
+  },
+  "dependencies": {
+    "cloverx": "^1.1.5",
+    "lodash": "^4.17.4",
+    "mathjax-node": "^1.0.3",
+    "yargs": "^7.1.0"
+  }
+}
